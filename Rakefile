@@ -12,5 +12,5 @@ end
 
 # start the server
 task :server do
-  exec "rerun -b 'rackup config.ru -p 8000'" # rerun is a gem that restarts the server when you make changes to your code
+  exec "rerun -b 'rackup config.ru -p 6500'" # rerun is a gem that restarts the server when you make changes to your code
 end
